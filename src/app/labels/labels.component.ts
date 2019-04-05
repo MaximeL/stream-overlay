@@ -42,8 +42,7 @@ export class LabelsComponent implements OnInit {
  checkUpdate() {
     this.caller.getLastFollow().subscribe(
       v => {
-        if (v && v.value && this.currentSong.text !== v.value) {
-          console.debug('response from caller for lastfollow');
+        if (v && v.value && this.lastFollow.text !== v.value) {
           this.lastFollow = new Label(v.value, this.limit);
         }
       }
@@ -51,7 +50,6 @@ export class LabelsComponent implements OnInit {
     this.caller.getMusicNow().subscribe(
       v => {
         if (v && v.value && this.currentSong.text !== v.value) {
-          console.debug('response from caller for currentSong');
           this.currentSong = new Label(v.value, this.limit);
         }
       }

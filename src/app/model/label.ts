@@ -1,6 +1,5 @@
 export class Label {
     constructor(text: string, limit: number) {
-        console.debug('init Label for' + text);
         this.text = text;
         this.index = -10;
         this.length = text.length;
