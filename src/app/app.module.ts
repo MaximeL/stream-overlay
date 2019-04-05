@@ -7,12 +7,14 @@ import { MainComponent } from './main/main.component';
 import { AppErrorHandler } from './handler/error-handler.service';
 import { HttpClientModule } from '@angular/common/http';
 import { ShadowComponent } from './shadow/shadow.component';
+import { LabelsComponent } from './labels/labels.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
-    ShadowComponent
+    ShadowComponent,
+    LabelsComponent
   ],
   imports: [
     BrowserModule,

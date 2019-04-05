@@ -1,0 +1,18 @@
+<div class="labels-container">
+  <div class="info-container">
+    <div class="image-container">
+      <img class="nes-avatar music-logo" alt="Now playing" [src]="musicIcon">
+    </div>
+    <div class="text-container">
+      : {{currentSong.display()}}
+    </div>
+  </div>
+  <div class="info-container">
+    <div class="image-container">
+      <img class="nes-avatar heart-logo" alt="Last follow" [src]="heartIcon">
+    </div>
+    <div class="text-container">
+      : {{lastFollow.display()}}
+    </div>
+  </div>
+</div>

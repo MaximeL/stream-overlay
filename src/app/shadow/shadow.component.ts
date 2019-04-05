@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class ShadowComponent implements OnInit {
 
   constructor() { }
-
-  shadowLogo = '../../assets/images/Vertical_Dark.png';
+  
+  shadowLogo = '../../assets/images/Vertical_Dark_Light.png';
 
   ngOnInit() {
   }

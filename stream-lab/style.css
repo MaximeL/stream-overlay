@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Press Start 2P');
+@import url('https://unpkg.com/nes.css@latest/css/nes.min.css');
+
+.widget-AlertBox {
+    position: relative;
+}
+body,
+html {
+    font: Press Start 2P;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: none;
+}
+#wrap {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+#alert-box {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+#alert-box.hidden,
+.hidden {
+    opacity: 0;
+}
+#alert-text {
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#alert-message {
+    text-align: center;
+  	color: #000!important;
+  	font-weight: bold!important;
+  	font-size: 24px!important;
+}
+#alert-user-message {
+    text-align: center;
+  	color: #000!important;
+  	font-weight: bold!important;
+  	font-size: 24px!important;
+}
+[data-token="name"] {
+  color: {colorRGB}!important;
+  font-weight: 900;
+}
+#alert-user-message img {
+    vertical-align: middle;
+    height: 1em;
+}
+#alert-image {
+    position: relative;
+}
+#alert-image video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#alert-message > span > span {
+    display: inline-block;
+}
+#alert-image {
+    z-index: 6;
+    position: relative;
+}
+#alert-text {
+    z-index: 6;
+    position: relative;
+    display: inline-block!important;
+    background-color: #fafafa;
+    border-radius: 10px;
+    background: none;
+}
+#balloon-div {
+    position: absolute;
+  	left: 0;
+    top: 0;
+    right: 20%
+}
+#charmander-div {
+    position: absolute;
+  	top: 85px;
+    left: 82%;
+}
+#alert-text-wrap {
+    z-index: 6;
+    position: relative;
+    text-align: center;
+  background: none;
+}
